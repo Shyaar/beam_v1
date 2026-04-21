@@ -1,0 +1,20 @@
+{
+  "name": "beam",
+  "private": true,
+  "description": "Proximity-Based Crypto Payments on Solana",
+  "workspaces": [
+    "apps/*",
+    "anchor"
+  ],
+  "scripts": {
+    "anchor": "npm run anchor --prefix anchor",
+    "web": "npm run dev --workspace apps/web"
+  },
+  "keywords": [
+    "solana",
+    "proximity",
+    "payments"
+  ],
+  "author": "",
+  "license": "MIT"
+}
